@@ -1,0 +1,49 @@
+This will work with JDK 11 only
+We need to have input and output folders in C:/PracticeJava/Flink/FlinkPracticeData
+
+
+Steps to run DataSetExampleWordCountEx1 class
+=============================================
+
+in intellij Add configuration > select application > module select jdk 17 
+no module , select flinkBasics.main
+Main class --> DataSetExampleWordCountEx1
+arguments --> 
+
+--input file:///C:/PracticeJava/Flink/FlinkPracticeData/wordcount.txt --output file:///C:/PracticeJava/Flink/wordcountoutput
+
+
+
+working directory --> C:\PracticeJava\Flink\FlinkBasics
+
+apply and OK
+run
+====================================
+
+DataSetExampleWordCountEx1
+
+--input file:///C:/PracticeJava/Flink/FlinkPracticeData/wordcount.txt --output file:///C:/PracticeJava/Flink/FlinkPracticeData/wordcountoutput
+
+
+
+steps for DataStreamExampleWordCountEx1
+=================================
+
+
+--input file:///C:/PracticeJava/Flink/FlinkPracticeData/wordcount.txt --output file:///C:/PracticeJava/Flink/FlinkPracticeData/wordcountstream
+
+=====================
+
+steps for DatasetExampleInnerJoin
+==============================
+
+DatasetExampleInnerJoin
+
+--input1 file:///C:/PracticeJava/Flink/FlinkPracticeData/person.txt --input2 file:///C:/PracticeJava/Flink/FlinkPracticeData/location.txt --output file:///C:/PracticeJava/Flink/FlinkPracticeData/Innerjoinoutput
+
+
+
+
+
+
+
