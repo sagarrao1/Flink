@@ -43,7 +43,21 @@ DatasetExampleInnerJoin
 
 
 
+steps for DatasetExampleLeftJoin
+==============================
+
+DatasetExampleLeftJoin
+
+--input1 file:///C:/PracticeJava/Flink/FlinkPracticeData/person.txt --input2 file:///C:/PracticeJava/Flink/FlinkPracticeData/location.txt --output file:///C:/PracticeJava/Flink/FlinkPracticeData/LeftOuterjoinoutput
 
 
+
+
+steps for DatasetExampleRightJoin
+==============================
+
+DatasetExampleRightJoin
+
+--input1 file:///C:/PracticeJava/Flink/FlinkPracticeData/person.txt --input2 file:///C:/PracticeJava/Flink/FlinkPracticeData/location.txt --output file:///C:/PracticeJava/Flink/FlinkPracticeData/RightOuterjoinoutput
 
 

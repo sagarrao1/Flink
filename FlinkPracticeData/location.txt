@@ -2,3 +2,4 @@
 2,Pune
 3,Tirupathi
 4,Goa
+6,Bali
