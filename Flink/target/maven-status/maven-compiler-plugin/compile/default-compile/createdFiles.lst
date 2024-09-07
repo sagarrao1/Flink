@@ -1,7 +1,0 @@
-org\janani\App.class
-org\janani\functional\TokenizerForMap.class
-org\janani\dataset\DataSetExampleWordCountEx1.class
-org\janani\datastream\FilterStrings$Filter.class
-org\janani\datastream\FilterStrings.class
-org\janani\functional\FilterAllNamesStartingWithK.class
-org\janani\functional\GetDataFromFileAndConvertToMap.class
