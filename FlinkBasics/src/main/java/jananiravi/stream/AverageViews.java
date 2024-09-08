@@ -1,4 +1,4 @@
-package jananiravi;
+package jananiravi.stream;
 
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
@@ -55,6 +55,8 @@ public class AverageViews {
 		public Tuple3<String, Double, Integer> reduce
 			   (Tuple3<String, Double, Integer> cumulative,
 				Tuple3<String, Double, Integer> input) throws Exception {
+//			System.out.println(" SumAndCount class");
+			
 			return new Tuple3<String, Double, Integer>(
 					input.f0,
 					cumulative.f1 + input.f1,

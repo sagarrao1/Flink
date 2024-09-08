@@ -19,11 +19,7 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.30'
     implementation 'org.slf4j:slf4j-api:1.7.36'
     implementation 'org.slf4j:slf4j-simple:1.7.36'
-
-
-
-
-
+	implementation 'org.apache.flink:flink-connector-twitter_2.12:1.14.4'
 }
 
 test {

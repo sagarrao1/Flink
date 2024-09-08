@@ -1,4 +1,4 @@
-package jananiravi;
+package jananiravi.stream;
 
 import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.streaming.api.datastream.DataStream;

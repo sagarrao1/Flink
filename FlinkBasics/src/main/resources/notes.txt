@@ -61,3 +61,37 @@ DatasetExampleRightJoin
 --input1 file:///C:/PracticeJava/Flink/FlinkPracticeData/person.txt --input2 file:///C:/PracticeJava/Flink/FlinkPracticeData/location.txt --output file:///C:/PracticeJava/Flink/FlinkPracticeData/RightOuterjoinoutput
 
 
+
+==================================
+Janani examples practice
+
+Words
+
+--input file:///C:/PracticeJava/Flink/FlinkPracticeData/SamplWords.txt
+
+output will be on console
+
+===============================
+WordCount
+
+--input file:///C:/PracticeJava/Flink/FlinkPracticeData/SamplWords.txt
+
+output will be on console
+
+
+=============================
+ViewsSessionWindow
+
+--input file:///C:/PracticeJava/Flink/FlinkPracticeData/ViewsSessionWindow.txt
+
+output will be on console
+
+
+
+
+=============================
+AverageViews
+
+--input file:///C:/PracticeJava/Flink/FlinkPracticeData/WebpageTimes.txt
+
+output will be on console

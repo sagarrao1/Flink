@@ -1,0 +1,7 @@
+janani,home,2.5
+janani,home,3.5
+Sagar,subpage,3.2
+Ramu,home,1.5
+Ramu,lastpage,3.2
+janani,subpage,4.2
+Sagar,lastpage,2.8

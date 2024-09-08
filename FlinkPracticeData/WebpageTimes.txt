@@ -1,0 +1,7 @@
+home,2.5
+home,3.5
+subpage,3.2
+home,1.5
+lastpage,3.2
+subpage,4.2
+lastpage,2.8
