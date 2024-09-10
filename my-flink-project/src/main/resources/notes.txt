@@ -1,0 +1,17 @@
+we need to set custom parallelism in conf/config.yaml file. default it will be one
+
+updates in config.yaml file
+taskmanager.numberOftaskSlot:4
+parallelism.default:2
+rest.port.8088
+To make it effect we need to stop cluster and start cluster
+./bin/stop-cluster.sh
+./bin/start-cluster.sh
+run any job to see task slots and parallelism in flink dashboard
+
+$FLINK_HOME/bin/flink run $FLINK_HOME/exaples/streaming/TopSpeedWindowing.jar
+cancel job
+
+
+specifying parallelism at flink job level before executing job
+$FLINK_HOME/bin/flink run -p 3 $FLINK_HOME/exaples/streaming/TopSpeedWindowing.jar
