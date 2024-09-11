@@ -15,3 +15,15 @@ cancel job
 
 specifying parallelism at flink job level before executing job
 $FLINK_HOME/bin/flink run -p 3 $FLINK_HOME/exaples/streaming/TopSpeedWindowing.jar
+
+
+steps to execute HighSpeedVehicleDetection
+
+--input file:///C:/PracticeJava/Flink/FlinkPracticeData/CarSpeeds.txt
+
+output will be on console
+
+
+
+
+./bin/flink run -c com.janani.stream.HighSpeedVehicleDetection my-flink-project.jar
