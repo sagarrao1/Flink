@@ -16,14 +16,28 @@ cancel job
 specifying parallelism at flink job level before executing job
 $FLINK_HOME/bin/flink run -p 3 $FLINK_HOME/exaples/streaming/TopSpeedWindowing.jar
 
-
+===============
 steps to execute HighSpeedVehicleDetection
-
 --input file:///C:/PracticeJava/Flink/FlinkPracticeData/CarSpeeds.txt
-
 output will be on console
+===================
 
-
-
-
+steps to run in cluster
+command to run job in flink custer in cygwin
+generate artifact(my-flink-project.jar) in intelliJ
+move it to flink.1.20.0 folder
+open cygwin and cd ../..
+run flink clsuter ./bin/start-cluster
+run below command to start new job
 ./bin/flink run -c com.janani.stream.HighSpeedVehicleDetection my-flink-project.jar
+
+===============
+steps to execute LifeExpectancyTracking
+--input file:///C:/PracticeJava/Flink/FlinkPracticeData/Life_Expectancy_Data.csv
+output will be on console
+======
+
+examples from here on adding file to src/main/resources/file
+
+completed till stateless transmission streams
+   stateful

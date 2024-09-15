@@ -1,0 +1,10 @@
+BMW,2022,sedan,6919f,
+BMW,2023,sedan,7319f,
+BMW,2024,sedan,14610f,
+chervolet,2022,truck,36100f,
+chervolet,2023,sedan,16400f,
+chervolet,2022,truck,15210f,
+Ford,2022,sedan,41575f,
+Ford,2022,sedan,13730f,
+Ford,2022,sedan,10730f,
+Kia,2024,sedan,20140f

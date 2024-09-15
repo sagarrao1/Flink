@@ -17,14 +17,16 @@ public class HighSpeedVehicleDetection {
 		final ParameterTool params = ParameterTool.fromArgs(args);
 		final StreamExecutionEnvironment env
 				= StreamExecutionEnvironment.getExecutionEnvironment();
-//		env.getConfig().setGlobalJobParameters(params);
-//		DataStream<String> dataStream = StreamUtil.getDataStream(env, params);
-		DataStreamSource<String> dataStream = env.readTextFile("./CarSpeeds.txt");
+		env.getConfig().setGlobalJobParameters(params);
+		DataStream<String> dataStream = StreamUtil.getDataStream(env, params);
 
-//		if (dataStream == null) {
-//			System.exit(1);
-//			return;
-//		}
+//		Below is for running in cluster from cygwin
+//		DataStream<String> dataStream = env.readTextFile("./CarSpeeds.txt");
+
+		if (dataStream == null) {
+			System.exit(1);
+			return;
+		}
 		DataStream<String> carSpeedStream = dataStream
 				.filter(new Filter());
 //				.name("High speed filter operation").uid("car-speed-filter");
